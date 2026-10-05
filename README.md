@@ -5,7 +5,7 @@ Official implementation for **"Mechanistic Evidence for Conceptual Mapping in LL
 This repository provides the code and example data for investigating whether large language models (LLMs) internally represent **cross-domain conceptual mappings** during metaphor understanding.
 
 <p align="center">
-  <img src="figures/fig.pdf" width="900">
+  <img src="figures/fig.png" width="900">
 </p>
 
 Our framework uses controlled metaphor contrasts to separate **semantic conflict** from **conceptual mapping**, and analyzes model representations from three complementary perspectives:
