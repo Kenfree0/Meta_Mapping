@@ -1,0 +1,508 @@
+[
+  {
+    "id": 1876,
+    "metaphor": "The land is an ice rink.",
+    "literal": "The land is very smooth and slippery.",
+    "source_domain": "ice rink",
+    "target_domain": "the land",
+    "related_source_metaphor": "The land is a polished mirror.",
+    "unrelated_source_metaphor": "The land is a loud argument.",
+    "related_source_domain": "polished mirror",
+    "unrelated_source_domain": "loud argument",
+    "from": "FigQA数据集",
+    "language": "en-US",
+    "parallel_source_metaphor": "The ground, slick and treacherous, has become an expanse of ice.",
+    "parallel_source_domain": "ice rink",
+    "source_span": {
+      "start": 15,
+      "end": 23,
+      "text": "ice rink",
+      "method": "unique_normalized_label",
+      "source_domain": "ice rink"
+    },
+    "source_groups": [
+      {
+        "name": "an ice rink",
+        "parts": [
+          {
+            "text": "an ice rink",
+            "related_source": "a polished mirror",
+            "unrelated_source": "a loud argument",
+            "source_span": {
+              "start": 12,
+              "end": 23,
+              "text": "an ice rink"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "an ice rink",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "an ice rink",
+    "related_source_domain_extracted": "a polished mirror",
+    "unrelated_source_domain_extracted": "a loud argument"
+  },
+  {
+    "id": 4382,
+    "metaphor": "Because as correctly identified by congress the CDC is a gun control propaganda factory",
+    "literal": "Because as correctly identified by congress the CDC is an organization that systematically produces and promotes biased information to advance the goal of gun control.",
+    "source_domain": "gun control propaganda factory",
+    "target_domain": "the CDC",
+    "related_source_metaphor": "Because as correctly identified by congress the CDC is a political bias echo chamber",
+    "unrelated_source_metaphor": "Because as correctly identified by congress the CDC is a fluffy kitten adoption center",
+    "related_source_domain": "political bias echo chamber",
+    "unrelated_source_domain": "fluffy kitten adoption center",
+    "from": "LCC",
+    "language": "en-US",
+    "parallel_source_metaphor": "The CDC, in the view of Congress, functions as a manufacturing plant for advocacy materials aimed at restricting firearms.",
+    "parallel_source_domain": "gun control propaganda factory",
+    "source_span": {
+      "start": 57,
+      "end": 87,
+      "text": "gun control propaganda factory",
+      "method": "unique_normalized_label",
+      "source_domain": "gun control propaganda factory"
+    },
+    "source_groups": [
+      {
+        "name": "gun control propaganda factory",
+        "parts": [
+          {
+            "text": "gun control propaganda factory",
+            "related_source": "political bias echo chamber",
+            "unrelated_source": "fluffy kitten adoption center",
+            "source_span": {
+              "start": 57,
+              "end": 87,
+              "text": "gun control propaganda factory"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "gun control propaganda factory",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "gun control propaganda factory",
+    "related_source_domain_extracted": "political bias echo chamber",
+    "unrelated_source_domain_extracted": "fluffy kitten adoption center"
+  },
+  {
+    "id": 2575,
+    "metaphor": "Massachusetts taxpayers are trapped in this Iron Triangle of politics",
+    "literal": "Massachusetts taxpayers are confined within this rigid political system of politics.",
+    "source_domain": "Iron Triangle",
+    "target_domain": "rigid political system",
+    "related_source_metaphor": "Massachusetts taxpayers are trapped in this Stone Fortress of politics",
+    "unrelated_source_metaphor": "Massachusetts taxpayers are trapped in this Fuzzy Slipper of politics",
+    "related_source_domain": "Stone Fortress",
+    "unrelated_source_domain": "Fuzzy Slipper",
+    "from": "VUA",
+    "language": "en-US",
+    "parallel_source_metaphor": "Within the rigid political system, the taxpayers of Massachusetts find themselves locked inside an Iron Triangle.",
+    "parallel_source_domain": "Iron Triangle",
+    "source_span": {
+      "start": 44,
+      "end": 57,
+      "text": "Iron Triangle",
+      "method": "unique_normalized_label",
+      "source_domain": "Iron Triangle"
+    },
+    "source_groups": [
+      {
+        "name": "Iron Triangle",
+        "parts": [
+          {
+            "text": "Iron Triangle",
+            "related_source": "Stone Fortress",
+            "unrelated_source": "Fuzzy Slipper",
+            "source_span": {
+              "start": 44,
+              "end": 57,
+              "text": "Iron Triangle"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "Iron Triangle",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "Iron Triangle",
+    "related_source_domain_extracted": "Stone Fortress",
+    "unrelated_source_domain_extracted": "Fuzzy Slipper"
+  },
+  {
+    "id": 2685,
+    "metaphor": "The tea had the strength of a limp handshake",
+    "literal": "The tea had a very weak flavor intensity.",
+    "source_domain": "strength of a limp handshake",
+    "target_domain": "the tea's flavor intensity",
+    "related_source_metaphor": "The tea had the strength of a faded whisper",
+    "unrelated_source_metaphor": "The tea had the strength of a blue Tuesday",
+    "related_source_domain": "strength of a faded whisper",
+    "unrelated_source_domain": "strength of a blue Tuesday",
+    "from": "FigQA数据集",
+    "language": "en-US",
+    "parallel_source_metaphor": "Like the feeble grip of a limp handshake, the tea's flavor was lacking in strength.",
+    "parallel_source_domain": "strength of a limp handshake",
+    "source_span": {
+      "start": 16,
+      "end": 44,
+      "text": "strength of a limp handshake",
+      "method": "unique_normalized_label",
+      "source_domain": "strength of a limp handshake"
+    },
+    "source_groups": [
+      {
+        "name": "limp handshake",
+        "parts": [
+          {
+            "text": "limp handshake",
+            "related_source": "faded whisper",
+            "unrelated_source": "blue Tuesday",
+            "source_span": {
+              "start": 30,
+              "end": 44,
+              "text": "limp handshake"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "limp handshake",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "limp handshake",
+    "related_source_domain_extracted": "faded whisper",
+    "unrelated_source_domain_extracted": "blue Tuesday"
+  },
+  {
+    "id": 7460,
+    "metaphor": "Guns are accidents waiting to happen",
+    "literal": "Guns are inherently dangerous.",
+    "source_domain": "accidents waiting to happen",
+    "target_domain": "inherent danger of guns",
+    "related_source_metaphor": "Guns are ticking time bombs",
+    "unrelated_source_metaphor": "Guns are fluffy pillows",
+    "related_source_domain": "ticking time bombs",
+    "unrelated_source_domain": "fluffy pillows",
+    "from": "LCC",
+    "language": "en-US",
+    "parallel_source_metaphor": "The danger of guns lies in the potential for mishap that is always present, like an accident poised to occur.",
+    "parallel_source_domain": "accidents waiting to happen",
+    "source_span": {
+      "start": 9,
+      "end": 36,
+      "text": "accidents waiting to happen",
+      "method": "unique_normalized_label",
+      "source_domain": "accidents waiting to happen"
+    },
+    "source_groups": [
+      {
+        "name": "accidents waiting to happen",
+        "parts": [
+          {
+            "text": "accidents waiting to happen",
+            "related_source": "ticking time bombs",
+            "unrelated_source": "fluffy pillows",
+            "source_span": {
+              "start": 9,
+              "end": 36,
+              "text": "accidents waiting to happen"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "accidents waiting to happen",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "accidents waiting to happen",
+    "related_source_domain_extracted": "ticking time bombs",
+    "unrelated_source_domain_extracted": "fluffy pillows"
+  },
+  {
+    "id": 1774,
+    "metaphor": "There's evidence that wealth is streaming from the high-cost metros to their cost-competitive neighbors",
+    "literal": "There's evidence that wealth is moving from the high-cost metros to their cost-competitive neighbors.",
+    "source_domain": "flowing water or liquid",
+    "target_domain": "movement of wealth",
+    "related_source_metaphor": "There's evidence that wealth is migrating from the high-cost metros to their cost-competitive neighbors",
+    "unrelated_source_metaphor": "There's evidence that wealth is napping from the high-cost metros to their cost-competitive neighbors",
+    "related_source_domain": "migration of animals or people",
+    "unrelated_source_domain": "sleeping/resting",
+    "from": "LCC",
+    "language": "en-US",
+    "parallel_source_metaphor": "Wealth is shown to be flowing out of expensive metropolitan areas and into adjacent, more affordable ones.",
+    "parallel_source_domain": "flowing water or liquid",
+    "source_span": {
+      "start": 32,
+      "end": 41,
+      "text": "streaming",
+      "method": "related_sentence_unique_word_diff",
+      "source_domain": "flowing water or liquid"
+    },
+    "source_groups": [
+      {
+        "name": "streaming",
+        "parts": [
+          {
+            "text": "streaming",
+            "related_source": "migrating",
+            "unrelated_source": "napping",
+            "source_span": {
+              "start": 32,
+              "end": 41,
+              "text": "streaming"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "streaming",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "streaming",
+    "related_source_domain_extracted": "migrating",
+    "unrelated_source_domain_extracted": "napping"
+  },
+  {
+    "id": 80,
+    "metaphor": "He had a target on his back the size of the sun",
+    "literal": "He was very obviously marked for hostility.",
+    "source_domain": "target on his back",
+    "target_domain": "being marked for hostility",
+    "related_source_metaphor": "He had a bullseye on his chest the size of the sun",
+    "unrelated_source_metaphor": "He had a fuzzy slipper on his shoulder the size of the sun",
+    "related_source_domain": "bullseye on his chest",
+    "unrelated_source_domain": "fuzzy slipper on his shoulder",
+    "from": "FigQA数据集",
+    "language": "en-US",
+    "parallel_source_metaphor": "He wore the mark of a target, so immense and glaring it could not be missed.",
+    "parallel_source_domain": "target on his back",
+    "source_span": {
+      "start": 9,
+      "end": 27,
+      "text": "target on his back",
+      "method": "unique_normalized_label",
+      "source_domain": "target on his back"
+    },
+    "source_groups": [
+      {
+        "name": "target",
+        "parts": [
+          {
+            "text": "target",
+            "related_source": "bullseye",
+            "unrelated_source": "fuzzy slipper",
+            "source_span": {
+              "start": 9,
+              "end": 15,
+              "text": "target"
+            },
+            "difference_index": 0
+          }
+        ]
+      },
+      {
+        "name": "back",
+        "parts": [
+          {
+            "text": "back",
+            "related_source": "chest",
+            "unrelated_source": "shoulder",
+            "source_span": {
+              "start": 23,
+              "end": 27,
+              "text": "back"
+            },
+            "difference_index": 1
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "target/back",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "target/back",
+    "related_source_domain_extracted": "bullseye/chest",
+    "unrelated_source_domain_extracted": "fuzzy slipper/shoulder"
+  },
+  {
+    "id": 2708,
+    "metaphor": "The teen's brain was a desert",
+    "literal": "The teen's brain lacked stimulation and ideas.",
+    "source_domain": "a desert",
+    "target_domain": "the teen's brain",
+    "related_source_metaphor": "The teen's brain was a barren landscape",
+    "unrelated_source_metaphor": "The teen's brain was a velvet pillow",
+    "related_source_domain": "a barren landscape",
+    "unrelated_source_domain": "a velvet pillow",
+    "from": "FigQA数据集",
+    "language": "en-US",
+    "parallel_source_metaphor": "The landscape of the adolescent's mind was barren, like a desert.",
+    "parallel_source_domain": "a desert",
+    "source_span": {
+      "start": 21,
+      "end": 29,
+      "text": "a desert",
+      "method": "unique_normalized_label",
+      "source_domain": "a desert"
+    },
+    "source_groups": [
+      {
+        "name": "desert",
+        "parts": [
+          {
+            "text": "desert",
+            "related_source": "barren landscape",
+            "unrelated_source": "velvet pillow",
+            "source_span": {
+              "start": 23,
+              "end": 29,
+              "text": "desert"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "desert",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "desert",
+    "related_source_domain_extracted": "barren landscape",
+    "unrelated_source_domain_extracted": "velvet pillow"
+  },
+  {
+    "id": 4187,
+    "metaphor": "One reason is that the land is still the cradle of great poverty and injustice",
+    "literal": "One reason is that the land is still the place where great poverty and injustice originate.",
+    "source_domain": "cradle",
+    "target_domain": "land where poverty and injustice originate",
+    "related_source_metaphor": "One reason is that the land is still the birthplace of great poverty and injustice",
+    "unrelated_source_metaphor": "One reason is that the land is still the stapler of great poverty and injustice",
+    "related_source_domain": "birthplace",
+    "unrelated_source_domain": "stapler",
+    "from": "VUA",
+    "language": "en-US",
+    "parallel_source_metaphor": "The land remains a cradle, nurturing and giving birth to profound poverty and injustice.",
+    "parallel_source_domain": "cradle",
+    "source_span": {
+      "start": 41,
+      "end": 47,
+      "text": "cradle",
+      "method": "unique_normalized_label",
+      "source_domain": "cradle"
+    },
+    "source_groups": [
+      {
+        "name": "cradle",
+        "parts": [
+          {
+            "text": "cradle",
+            "related_source": "birthplace",
+            "unrelated_source": "stapler",
+            "source_span": {
+              "start": 41,
+              "end": 47,
+              "text": "cradle"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "cradle",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "cradle",
+    "related_source_domain_extracted": "birthplace",
+    "unrelated_source_domain_extracted": "stapler"
+  },
+  {
+    "id": 1934,
+    "metaphor": "The man had the presence of a mouse",
+    "literal": "The man had a quiet and unassertive manner.",
+    "source_domain": "a mouse",
+    "target_domain": "the man's presence",
+    "related_source_metaphor": "The man had the presence of a whisper",
+    "unrelated_source_metaphor": "The man had the presence of a banana",
+    "related_source_domain": "a whisper",
+    "unrelated_source_domain": "a banana",
+    "from": "FigQA数据集",
+    "language": "en-US",
+    "parallel_source_metaphor": "His presence was that of a mouse—timid, quiet, and easily overlooked.",
+    "parallel_source_domain": "a mouse",
+    "source_span": {
+      "start": 28,
+      "end": 35,
+      "text": "a mouse",
+      "method": "unique_normalized_label",
+      "source_domain": "a mouse"
+    },
+    "source_groups": [
+      {
+        "name": "mouse",
+        "parts": [
+          {
+            "text": "mouse",
+            "related_source": "whisper",
+            "unrelated_source": "banana",
+            "source_span": {
+              "start": 30,
+              "end": 35,
+              "text": "mouse"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "method": "M_R_U_aligned_token_diff",
+      "status": "ok",
+      "source_domain_from_diff": "mouse",
+      "ignored_local_differences": []
+    },
+    "source_domain_extracted": "mouse",
+    "related_source_domain_extracted": "whisper",
+    "unrelated_source_domain_extracted": "banana"
+  }
+]

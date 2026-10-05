@@ -1,0 +1,7 @@
+{
+  "Gemma12b": "models/gemma-3-12b",
+  "qwen2.5-7b": "models/qwen2.5-7b",
+  "llama-3.1-8b": "models/llama-3.1-8b",
+  "deepseek_base": "models/deepseek-llm-7b-base",
+  "glm4-9b-0414": "models/glm-4-9b-0414"
+}
