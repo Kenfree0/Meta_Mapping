@@ -9,14 +9,11 @@
     "unrelated_source_metaphor": "哥德巴赫猜想就是人类思维的石头",
     "related_source_domain": "星辰",
     "unrelated_source_domain": "石头",
-    "from": "CCL2018中文隐喻识别",
     "language": "zh-CN",
     "parallel_source_metaphor": "人类思维的繁茂花园中，哥德巴赫猜想是最耀眼的那一朵",
     "parallel_source_domain": "花朵",
     "source_position": {
       "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
       "start": 13,
       "end": 15,
       "text": "花朵"
@@ -25,7 +22,6 @@
       "start": 13,
       "end": 15,
       "text": "花朵",
-      "method": "existing_source_position",
       "source_domain": "花朵"
     },
     "source_groups": [
@@ -47,87 +43,11 @@
       }
     ],
     "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "花朵",
-      "ignored_local_differences": []
+      "source_domain_from_diff": "花朵"
     },
     "source_domain_extracted": "花朵",
     "related_source_domain_extracted": "星辰",
     "unrelated_source_domain_extracted": "石头"
-  },
-  {
-    "id": 2020,
-    "metaphor": "放弃抵抗，我们可就成了案板上的鱼肉了。",
-    "literal": "放弃抵抗，我们就会陷入完全被动的局面。",
-    "source_domain": "案板上的鱼肉",
-    "target_domain": "被动处境",
-    "related_source_metaphor": "放弃抵抗，我们可就成了网中的飞鸟了。",
-    "unrelated_source_metaphor": "放弃抵抗，我们可就成了书架上的书本了。",
-    "related_source_domain": "网中的飞鸟",
-    "unrelated_source_domain": "书架上的书本",
-    "from": "CCL2018中文隐喻识别",
-    "language": "zh-CN",
-    "parallel_source_metaphor": "抵抗一旦停止，我们便是那置于砧板之上、任人宰割的鱼和肉。",
-    "parallel_source_domain": "案板上的鱼肉",
-    "source_position": {
-      "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
-      "start": 11,
-      "end": 17,
-      "text": "案板上的鱼肉"
-    },
-    "source_span": {
-      "start": 11,
-      "end": 17,
-      "text": "案板上的鱼肉",
-      "method": "existing_source_position",
-      "source_domain": "案板上的鱼肉"
-    },
-    "source_groups": [
-      {
-        "name": "案板上",
-        "parts": [
-          {
-            "text": "案板上",
-            "related_source": "网中",
-            "unrelated_source": "书架上",
-            "source_span": {
-              "start": 11,
-              "end": 14,
-              "text": "案板上"
-            },
-            "difference_index": 0
-          }
-        ]
-      },
-      {
-        "name": "鱼肉",
-        "parts": [
-          {
-            "text": "鱼肉",
-            "related_source": "飞鸟",
-            "unrelated_source": "书本",
-            "source_span": {
-              "start": 15,
-              "end": 17,
-              "text": "鱼肉"
-            },
-            "difference_index": 1
-          }
-        ]
-      }
-    ],
-    "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "案板上/鱼肉",
-      "ignored_local_differences": []
-    },
-    "source_domain_extracted": "案板上/鱼肉",
-    "related_source_domain_extracted": "网中/飞鸟",
-    "unrelated_source_domain_extracted": "书架上/书本"
   },
   {
     "id": 1604,
@@ -139,14 +59,11 @@
     "unrelated_source_metaphor": "没有人是一块圆面包。",
     "related_source_domain": "孤星",
     "unrelated_source_domain": "圆面包",
-    "from": "CCL2018中文隐喻识别",
     "language": "zh-CN",
     "parallel_source_metaphor": "每个人都不是一座孤岛，能隔绝所有的联系。",
     "parallel_source_domain": "孤岛",
     "source_position": {
       "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
       "start": 6,
       "end": 8,
       "text": "孤岛"
@@ -155,7 +72,6 @@
       "start": 6,
       "end": 8,
       "text": "孤岛",
-      "method": "existing_source_position",
       "source_domain": "孤岛"
     },
     "source_groups": [
@@ -177,309 +93,11 @@
       }
     ],
     "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "座孤岛",
-      "ignored_local_differences": []
+      "source_domain_from_diff": "座孤岛"
     },
     "source_domain_extracted": "座孤岛",
     "related_source_domain_extracted": "颗孤星",
     "unrelated_source_domain_extracted": "块圆面包"
-  },
-  {
-    "id": 1090,
-    "metaphor": "他说话里嵌的英文字好比牙缝里嵌的肉屑，表示饭菜吃得好，此外全无用处",
-    "literal": "他说话中加入的英文字只是为了显示受过好的教育，实际上在交流中没有实际作用。",
-    "source_domain": "牙缝里嵌的肉屑",
-    "target_domain": "说话中嵌的英文字",
-    "related_source_metaphor": "他说话里嵌的英文字好比衣领上沾的饭粒，表示饭菜吃得好，此外全无用处",
-    "unrelated_source_metaphor": "他说话里嵌的英文字好比天空中飘的云朵，表示饭菜吃得好，此外全无用处",
-    "related_source_domain": "衣领上沾的饭粒",
-    "unrelated_source_domain": "天空中飘的云朵",
-    "from": "CCL2018中文隐喻识别",
-    "language": "zh-CN",
-    "parallel_source_metaphor": "那些英文字就像卡在牙缝里的肉屑，除了炫耀餐食丰盛外毫无用处",
-    "parallel_source_domain": "牙缝里嵌的肉屑",
-    "source_position": {
-      "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
-      "start": 11,
-      "end": 18,
-      "text": "牙缝里嵌的肉屑"
-    },
-    "source_span": {
-      "start": 11,
-      "end": 18,
-      "text": "牙缝里嵌的肉屑",
-      "method": "existing_source_position",
-      "source_domain": "牙缝里嵌的肉屑"
-    },
-    "source_groups": [
-      {
-        "name": "牙缝里嵌",
-        "parts": [
-          {
-            "text": "牙缝里嵌",
-            "related_source": "衣领上沾",
-            "unrelated_source": "天空中飘",
-            "source_span": {
-              "start": 11,
-              "end": 15,
-              "text": "牙缝里嵌"
-            },
-            "difference_index": 0
-          }
-        ]
-      },
-      {
-        "name": "肉屑",
-        "parts": [
-          {
-            "text": "肉屑",
-            "related_source": "饭粒",
-            "unrelated_source": "云朵",
-            "source_span": {
-              "start": 16,
-              "end": 18,
-              "text": "肉屑"
-            },
-            "difference_index": 1
-          }
-        ]
-      }
-    ],
-    "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "牙缝里嵌/肉屑",
-      "ignored_local_differences": []
-    },
-    "source_domain_extracted": "牙缝里嵌/肉屑",
-    "related_source_domain_extracted": "衣领上沾/饭粒",
-    "unrelated_source_domain_extracted": "天空中飘/云朵"
-  },
-  {
-    "id": 3522,
-    "metaphor": "夜幕四合，周围的群山，像高大的山神，像神秘的古堡，像沮丧的巨人，像一条连绵不断的地毯。",
-    "literal": "夜晚降临，周围的群山在黑暗中呈现出各种轮廓形状。",
-    "source_domain": "山神/古堡/巨人/地毯",
-    "target_domain": "群山轮廓",
-    "related_source_metaphor": "夜幕四合，周围的群山，像巨大的雕塑，像神秘的庙宇，像沉睡的巨兽，像一幅连绵不断的画卷。",
-    "unrelated_source_metaphor": "夜幕四合，周围的群山，像漂浮的云朵，像闪烁的星星，像清脆的铃铛，像一碗热气腾腾的面条。",
-    "related_source_domain": "雕塑/庙宇/巨兽/画卷",
-    "unrelated_source_domain": "云朵/星星/铃铛/面条",
-    "from": "CMC数据集",
-    "language": "zh-CN",
-    "parallel_source_metaphor": "夜幕下，那些山神般高大、古堡般神秘、巨人般沮丧、地毯般连绵的，正是四合的群山。",
-    "parallel_source_domain": "山神/古堡/巨人/地毯",
-    "source_position": {
-      "status": "multi_span",
-      "method": "compound_label_parts",
-      "confidence": null,
-      "spans": [
-        {
-          "start": 15,
-          "end": 17,
-          "text": "山神"
-        },
-        {
-          "start": 22,
-          "end": 24,
-          "text": "古堡"
-        },
-        {
-          "start": 29,
-          "end": 31,
-          "text": "巨人"
-        },
-        {
-          "start": 40,
-          "end": 42,
-          "text": "地毯"
-        }
-      ]
-    },
-    "source_groups": [
-      {
-        "name": "高大",
-        "parts": [
-          {
-            "text": "高大",
-            "related_source": "巨大",
-            "unrelated_source": "漂浮",
-            "source_span": {
-              "start": 12,
-              "end": 14,
-              "text": "高大"
-            },
-            "difference_index": 0
-          }
-        ]
-      },
-      {
-        "name": "山神",
-        "parts": [
-          {
-            "text": "山神",
-            "related_source": "雕塑",
-            "unrelated_source": "云朵",
-            "source_span": {
-              "start": 15,
-              "end": 17,
-              "text": "山神"
-            },
-            "difference_index": 1
-          }
-        ]
-      },
-      {
-        "name": "神秘",
-        "parts": [
-          {
-            "text": "神秘",
-            "related_source": "神秘",
-            "unrelated_source": "闪烁",
-            "source_span": {
-              "start": 19,
-              "end": 21,
-              "text": "神秘"
-            },
-            "difference_index": 2
-          }
-        ]
-      },
-      {
-        "name": "古堡",
-        "parts": [
-          {
-            "text": "古堡",
-            "related_source": "庙宇",
-            "unrelated_source": "星星",
-            "source_span": {
-              "start": 22,
-              "end": 24,
-              "text": "古堡"
-            },
-            "difference_index": 3
-          }
-        ]
-      },
-      {
-        "name": "沮丧",
-        "parts": [
-          {
-            "text": "沮丧",
-            "related_source": "沉睡",
-            "unrelated_source": "清脆",
-            "source_span": {
-              "start": 26,
-              "end": 28,
-              "text": "沮丧"
-            },
-            "difference_index": 4
-          }
-        ]
-      },
-      {
-        "name": "巨人",
-        "parts": [
-          {
-            "text": "巨人",
-            "related_source": "巨兽",
-            "unrelated_source": "铃铛",
-            "source_span": {
-              "start": 29,
-              "end": 31,
-              "text": "巨人"
-            },
-            "difference_index": 5
-          }
-        ]
-      },
-      {
-        "name": "条连绵不断的地毯",
-        "parts": [
-          {
-            "text": "条连绵不断的地毯",
-            "related_source": "幅连绵不断的画卷",
-            "unrelated_source": "碗热气腾腾的面条",
-            "source_span": {
-              "start": 34,
-              "end": 42,
-              "text": "条连绵不断的地毯"
-            },
-            "difference_index": 6
-          }
-        ]
-      }
-    ],
-    "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "高大/山神/神秘/古堡/沮丧/巨人/条连绵不断的地毯",
-      "ignored_local_differences": []
-    },
-    "source_domain_extracted": "高大/山神/神秘/古堡/沮丧/巨人/条连绵不断的地毯",
-    "related_source_domain_extracted": "巨大/雕塑/神秘/庙宇/沉睡/巨兽/幅连绵不断的画卷",
-    "unrelated_source_domain_extracted": "漂浮/云朵/闪烁/星星/清脆/铃铛/碗热气腾腾的面条"
-  },
-  {
-    "id": 6393,
-    "metaphor": "人生也像赛道，但速度、方向、目的地不同，注定每个人都会拥有唯一的旅程。",
-    "literal": "人生的过程不同，每个人的经历、选择和目标不同，因此每个人都会经历独特的过程。",
-    "source_domain": "赛道",
-    "target_domain": "人生",
-    "related_source_metaphor": "人生也像跑道，但速度、方向、目的地不同，注定每个人都会拥有唯一的旅程。",
-    "unrelated_source_metaphor": "人生也像衣柜，但速度、方向、目的地不同，注定每个人都会拥有唯一的旅程。",
-    "related_source_domain": "跑道",
-    "unrelated_source_domain": "衣柜",
-    "from": "CMC数据集",
-    "language": "zh-CN",
-    "parallel_source_metaphor": "人生的赛道千差万别，各人的速度、方向和终点都不同，这注定了每个人只能跑出自己那条独一无二的轨迹。",
-    "parallel_source_domain": "赛道",
-    "source_position": {
-      "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
-      "start": 4,
-      "end": 6,
-      "text": "赛道"
-    },
-    "source_span": {
-      "start": 4,
-      "end": 6,
-      "text": "赛道",
-      "method": "existing_source_position",
-      "source_domain": "赛道"
-    },
-    "source_groups": [
-      {
-        "name": "赛道",
-        "parts": [
-          {
-            "text": "赛道",
-            "related_source": "跑道",
-            "unrelated_source": "衣柜",
-            "source_span": {
-              "start": 4,
-              "end": 6,
-              "text": "赛道"
-            },
-            "difference_index": 0
-          }
-        ]
-      }
-    ],
-    "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "赛道",
-      "ignored_local_differences": []
-    },
-    "source_domain_extracted": "赛道",
-    "related_source_domain_extracted": "跑道",
-    "unrelated_source_domain_extracted": "衣柜"
   },
   {
     "id": 9647,
@@ -491,14 +109,11 @@
     "unrelated_source_metaphor": "母爱，就像冬夜里的一本字典，当我瑟瑟发抖时，贴心的呵护和温暖使我安然入梦。",
     "related_source_domain": "羽绒服",
     "unrelated_source_domain": "字典",
-    "from": "CMC数据集",
     "language": "zh-CN",
     "parallel_source_metaphor": "那床冬夜的丝棉被，以它的贴心呵护与温暖，为我驱散了瑟瑟发抖的寒冷，让我安然入梦。",
     "parallel_source_domain": "丝棉被",
     "source_position": {
       "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
       "start": 11,
       "end": 14,
       "text": "丝棉被"
@@ -507,7 +122,6 @@
       "start": 11,
       "end": 14,
       "text": "丝棉被",
-      "method": "existing_source_position",
       "source_domain": "丝棉被"
     },
     "source_groups": [
@@ -529,56 +143,49 @@
       }
     ],
     "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "床丝棉被",
-      "ignored_local_differences": []
+      "source_domain_from_diff": "床丝棉被"
     },
     "source_domain_extracted": "床丝棉被",
     "related_source_domain_extracted": "件羽绒服",
     "unrelated_source_domain_extracted": "本字典"
   },
   {
-    "id": 6920,
-    "metaphor": "他们就像披着“羊皮的狼”，甚至差于狼。",
-    "literal": "他们实际上是伪装的坏人，甚至比真正的坏人更恶劣。",
-    "source_domain": "披着羊皮的狼",
-    "target_domain": "伪装的坏人",
-    "related_source_metaphor": "他们就像披着“羊皮的狐狸”，甚至差于狼。",
-    "unrelated_source_metaphor": "他们就像披着“羊皮的石头”，甚至差于狼。",
-    "related_source_domain": "披着羊皮的狐狸",
-    "unrelated_source_domain": "披着羊皮的石头",
-    "from": "CMC数据集",
+    "id": 1994,
+    "metaphor": "他的目光像利刃一样",
+    "literal": "他的目光非常锐利。",
+    "source_domain": "利刃",
+    "target_domain": "目光",
+    "related_source_metaphor": "他的目光像匕首一样",
+    "unrelated_source_metaphor": "他的目光像海绵一样",
+    "related_source_domain": "匕首",
+    "unrelated_source_domain": "海绵",
     "language": "zh-CN",
-    "parallel_source_metaphor": "他们披着‘羊皮’，内里却比狼还要凶狠。",
-    "parallel_source_domain": "披着羊皮的狼",
+    "parallel_source_metaphor": "他的目光是利刃，直直地刺了过来。",
+    "parallel_source_domain": "利刃",
     "source_position": {
-      "status": "normalized",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
-      "start": 4,
-      "end": 11,
-      "text": "披着“羊皮的狼"
+      "status": "exact",
+      "start": 5,
+      "end": 7,
+      "text": "利刃"
     },
     "source_span": {
-      "start": 4,
-      "end": 11,
-      "text": "披着“羊皮的狼",
-      "method": "existing_source_position",
-      "source_domain": "披着羊皮的狼"
+      "start": 5,
+      "end": 7,
+      "text": "利刃",
+      "source_domain": "利刃"
     },
     "source_groups": [
       {
-        "name": "狼",
+        "name": "利刃",
         "parts": [
           {
-            "text": "狼",
-            "related_source": "狐狸",
-            "unrelated_source": "石头",
+            "text": "利刃",
+            "related_source": "匕首",
+            "unrelated_source": "海绵",
             "source_span": {
-              "start": 10,
-              "end": 11,
-              "text": "狼"
+              "start": 5,
+              "end": 7,
+              "text": "利刃"
             },
             "difference_index": 0
           }
@@ -586,56 +193,99 @@
       }
     ],
     "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "狼",
-      "ignored_local_differences": []
+      "source_domain_from_diff": "利刃"
     },
-    "source_domain_extracted": "狼",
-    "related_source_domain_extracted": "狐狸",
+    "source_domain_extracted": "利刃",
+    "related_source_domain_extracted": "匕首",
+    "unrelated_source_domain_extracted": "海绵"
+  },
+  {
+    "id": 954,
+    "metaphor": "他肚子里有墨水。",
+    "literal": "他有学问知识。",
+    "source_domain": "墨水",
+    "target_domain": "学问知识",
+    "related_source_metaphor": "他肚子里有书本。",
+    "unrelated_source_metaphor": "他肚子里有石头。",
+    "related_source_domain": "书本",
+    "unrelated_source_domain": "石头",
+    "language": "zh-CN",
+    "parallel_source_metaphor": "墨水在他的肚子里流淌着。",
+    "parallel_source_domain": "墨水",
+    "source_position": {
+      "status": "exact",
+      "start": 5,
+      "end": 7,
+      "text": "墨水"
+    },
+    "source_span": {
+      "start": 5,
+      "end": 7,
+      "text": "墨水",
+      "source_domain": "墨水"
+    },
+    "source_groups": [
+      {
+        "name": "墨水",
+        "parts": [
+          {
+            "text": "墨水",
+            "related_source": "书本",
+            "unrelated_source": "石头",
+            "source_span": {
+              "start": 5,
+              "end": 7,
+              "text": "墨水"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "source_domain_from_diff": "墨水"
+    },
+    "source_domain_extracted": "墨水",
+    "related_source_domain_extracted": "书本",
     "unrelated_source_domain_extracted": "石头"
   },
   {
-    "id": 7689,
-    "metaphor": "千树万树的红叶，越到秋深，越是红艳，远远看去，就像火焰在滚动。",
-    "literal": "千树万树的红叶，越到秋深，越是红艳，远远看去，满山红叶的景象非常醒目且动态。",
-    "source_domain": "火焰在滚动",
-    "target_domain": "满山红叶的景象",
-    "related_source_metaphor": "千树万树的红叶，越到秋深，越是红艳，远远看去，就像晚霞在滚动。",
-    "unrelated_source_metaphor": "千树万树的红叶，越到秋深，越是红艳，远远看去，就像书本在滚动。",
-    "related_source_domain": "晚霞在滚动",
-    "unrelated_source_domain": "书本在滚动",
-    "from": "CMC数据集",
+    "id": 7510,
+    "metaphor": "秋天像一位画家，把大地涂得五彩缤纷。",
+    "literal": "秋天使大地呈现出多种颜色。",
+    "source_domain": "画家",
+    "target_domain": "秋天",
+    "related_source_metaphor": "秋天像一位调色师，把大地涂得五彩缤纷。",
+    "unrelated_source_metaphor": "秋天像一把锤子，把大地涂得五彩缤纷。",
+    "related_source_domain": "调色师",
+    "unrelated_source_domain": "锤子",
     "language": "zh-CN",
-    "parallel_source_metaphor": "秋深时节，千树万树愈发红艳的红叶，从远处望去，仿佛一片熊熊燃烧、正在翻滚的火海。",
-    "parallel_source_domain": "火海",
+    "parallel_source_metaphor": "秋天这位画家，正挥洒着五彩的画笔，让大地成为他的画布。",
+    "parallel_source_domain": "画家",
     "source_position": {
       "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
-      "start": 25,
-      "end": 30,
-      "text": "火焰在滚动"
+      "start": 5,
+      "end": 7,
+      "text": "画家"
     },
     "source_span": {
-      "start": 25,
-      "end": 30,
-      "text": "火焰在滚动",
-      "method": "existing_source_position",
-      "source_domain": "火焰在滚动"
+      "start": 5,
+      "end": 7,
+      "text": "画家",
+      "source_domain": "画家"
     },
     "source_groups": [
       {
-        "name": "火焰",
+        "name": "位画家",
         "parts": [
           {
-            "text": "火焰",
-            "related_source": "晚霞",
-            "unrelated_source": "书本",
+            "text": "位画家",
+            "related_source": "位调色师",
+            "unrelated_source": "把锤子",
             "source_span": {
-              "start": 25,
-              "end": 27,
-              "text": "火焰"
+              "start": 4,
+              "end": 7,
+              "text": "位画家"
             },
             "difference_index": 0
           }
@@ -643,86 +293,210 @@
       }
     ],
     "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "火焰",
-      "ignored_local_differences": []
+      "source_domain_from_diff": "位画家"
     },
-    "source_domain_extracted": "火焰",
-    "related_source_domain_extracted": "晚霞",
-    "unrelated_source_domain_extracted": "书本"
+    "source_domain_extracted": "位画家",
+    "related_source_domain_extracted": "位调色师",
+    "unrelated_source_domain_extracted": "把锤子"
   },
   {
-    "id": 2905,
-    "metaphor": "马摇警着肥一大的脑袋，东张西望，像一位老师在监考。",
-    "literal": "马晃动着大脑袋，四处张望，表现出警惕而审视的神态。",
-    "source_domain": "老师在监考",
-    "target_domain": "马的行为",
-    "related_source_metaphor": "马摇警着肥一大的脑袋，东张西望，像一位哨兵在巡逻。",
-    "unrelated_source_metaphor": "马摇警着肥一大的脑袋，东张西望，像一块石头在睡觉。",
-    "related_source_domain": "哨兵在巡逻",
-    "unrelated_source_domain": "石头在睡觉",
-    "from": "CMC数据集",
+    "id": 6923,
+    "metaphor": "鼓励像一粒糖，甜蜜人的心。",
+    "literal": "鼓励能让人心情愉快。",
+    "source_domain": "一粒糖",
+    "target_domain": "鼓励",
+    "related_source_metaphor": "鼓励像一勺蜜，甜蜜人的心。",
+    "unrelated_source_metaphor": "鼓励像一块砖，甜蜜人的心。",
+    "related_source_domain": "一勺蜜",
+    "unrelated_source_domain": "一块砖",
     "language": "zh-CN",
-    "parallel_source_metaphor": "马那颗硕大的脑袋左右转动，四下打量，俨然一位正在巡视考场的监考老师。",
-    "parallel_source_domain": "老师在监考",
+    "parallel_source_metaphor": "那颗鼓励的糖，化在人心头，便漾开一片甜。",
+    "parallel_source_domain": "一粒糖",
     "source_position": {
       "status": "exact",
-      "method": "unique_normalized_source_match",
-      "confidence": null,
-      "start": 19,
-      "end": 24,
-      "text": "老师在监考"
+      "start": 3,
+      "end": 6,
+      "text": "一粒糖"
     },
     "source_span": {
-      "start": 19,
-      "end": 24,
-      "text": "老师在监考",
-      "method": "existing_source_position",
-      "source_domain": "老师在监考"
+      "start": 3,
+      "end": 6,
+      "text": "一粒糖",
+      "source_domain": "一粒糖"
     },
     "source_groups": [
       {
-        "name": "位老师",
+        "name": "粒糖",
         "parts": [
           {
-            "text": "位老师",
-            "related_source": "位哨兵",
-            "unrelated_source": "块石头",
+            "text": "粒糖",
+            "related_source": "勺蜜",
+            "unrelated_source": "块砖",
             "source_span": {
-              "start": 18,
-              "end": 21,
-              "text": "位老师"
+              "start": 4,
+              "end": 6,
+              "text": "粒糖"
             },
             "difference_index": 0
-          }
-        ]
-      },
-      {
-        "name": "监考",
-        "parts": [
-          {
-            "text": "监考",
-            "related_source": "巡逻",
-            "unrelated_source": "睡觉",
-            "source_span": {
-              "start": 22,
-              "end": 24,
-              "text": "监考"
-            },
-            "difference_index": 1
           }
         ]
       }
     ],
     "source_extraction": {
-      "method": "M_R_U_aligned_token_diff",
-      "status": "ok",
-      "source_domain_from_diff": "位老师/监考",
-      "ignored_local_differences": []
+      "source_domain_from_diff": "粒糖"
     },
-    "source_domain_extracted": "位老师/监考",
-    "related_source_domain_extracted": "位哨兵/巡逻",
-    "unrelated_source_domain_extracted": "块石头/睡觉"
+    "source_domain_extracted": "粒糖",
+    "related_source_domain_extracted": "勺蜜",
+    "unrelated_source_domain_extracted": "块砖"
+  },
+  {
+    "id": 918,
+    "metaphor": "教师是勤劳的园丁。",
+    "literal": "教师是辛勤工作的人。",
+    "source_domain": "园丁",
+    "target_domain": "教师",
+    "related_source_metaphor": "教师是勤劳的工匠。",
+    "unrelated_source_metaphor": "教师是勤劳的云朵。",
+    "related_source_domain": "工匠",
+    "unrelated_source_domain": "云朵",
+    "language": "zh-CN",
+    "parallel_source_metaphor": "在校园这片苗圃里，教师们就是那些日复一日、默默耕耘的园丁。",
+    "parallel_source_domain": "园丁",
+    "source_position": {
+      "status": "exact",
+      "start": 6,
+      "end": 8,
+      "text": "园丁"
+    },
+    "source_span": {
+      "start": 6,
+      "end": 8,
+      "text": "园丁",
+      "source_domain": "园丁"
+    },
+    "source_groups": [
+      {
+        "name": "园丁",
+        "parts": [
+          {
+            "text": "园丁",
+            "related_source": "工匠",
+            "unrelated_source": "云朵",
+            "source_span": {
+              "start": 6,
+              "end": 8,
+              "text": "园丁"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "source_domain_from_diff": "园丁"
+    },
+    "source_domain_extracted": "园丁",
+    "related_source_domain_extracted": "工匠",
+    "unrelated_source_domain_extracted": "云朵"
+  },
+  {
+    "id": 759,
+    "metaphor": "阿明的钱包就是个保险柜。",
+    "literal": "阿明的钱包非常安全。",
+    "source_domain": "保险柜",
+    "target_domain": "钱包",
+    "related_source_metaphor": "阿明的钱包就是个防盗门。",
+    "unrelated_source_metaphor": "阿明的钱包就是个红气球。",
+    "related_source_domain": "防盗门",
+    "unrelated_source_domain": "红气球",
+    "language": "zh-CN",
+    "parallel_source_metaphor": "阿明的钱包，其安全堪比一个上了锁的保险柜。",
+    "parallel_source_domain": "保险柜",
+    "source_position": {
+      "status": "exact",
+      "start": 8,
+      "end": 11,
+      "text": "保险柜"
+    },
+    "source_span": {
+      "start": 8,
+      "end": 11,
+      "text": "保险柜",
+      "source_domain": "保险柜"
+    },
+    "source_groups": [
+      {
+        "name": "保险柜",
+        "parts": [
+          {
+            "text": "保险柜",
+            "related_source": "防盗门",
+            "unrelated_source": "红气球",
+            "source_span": {
+              "start": 8,
+              "end": 11,
+              "text": "保险柜"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "source_domain_from_diff": "保险柜"
+    },
+    "source_domain_extracted": "保险柜",
+    "related_source_domain_extracted": "防盗门",
+    "unrelated_source_domain_extracted": "红气球"
+  },
+  {
+    "id": 2080,
+    "metaphor": "那些考了一辈子的老童生便是在某种程度上做了科举制度的人质。",
+    "literal": "那些考了一辈子的老童生便是因为科举制度而在一定程度上丧失了对自己命运的控制。",
+    "source_domain": "人质",
+    "target_domain": "老童生的命运",
+    "related_source_metaphor": "那些考了一辈子的老童生便是在某种程度上做了科举制度的囚徒。",
+    "unrelated_source_metaphor": "那些考了一辈子的老童生便是在某种程度上做了科举制度的茶杯。",
+    "related_source_domain": "囚徒",
+    "unrelated_source_domain": "茶杯",
+    "language": "zh-CN",
+    "parallel_source_metaphor": "科举制度挟持了那些考了一辈子的老童生，将他们变成了某种程度上的囚徒。",
+    "parallel_source_domain": "人质",
+    "source_position": {
+      "status": "exact",
+      "start": 26,
+      "end": 28,
+      "text": "人质"
+    },
+    "source_span": {
+      "start": 26,
+      "end": 28,
+      "text": "人质",
+      "source_domain": "人质"
+    },
+    "source_groups": [
+      {
+        "name": "人质",
+        "parts": [
+          {
+            "text": "人质",
+            "related_source": "囚徒",
+            "unrelated_source": "茶杯",
+            "source_span": {
+              "start": 26,
+              "end": 28,
+              "text": "人质"
+            },
+            "difference_index": 0
+          }
+        ]
+      }
+    ],
+    "source_extraction": {
+      "source_domain_from_diff": "人质"
+    },
+    "source_domain_extracted": "人质",
+    "related_source_domain_extracted": "囚徒",
+    "unrelated_source_domain_extracted": "茶杯"
   }
 ]
