@@ -193,7 +193,7 @@ def mask_diff_record(entry):
     text = entry.get("metaphor")
     if not isinstance(text, str) or not text.strip() or "[BLANK" in text:
         raise ValueError("invalid_metaphor")
-    if entry.get("source_extraction", {}).get("status") != "ok":
+    if entry.get("source_extraction", {}).get("status", "ok") != "ok":
         raise ValueError("diff_extraction_not_ready")
     specs = entry.get("source_groups")
     if not isinstance(specs, list) or not specs:
@@ -275,7 +275,9 @@ def mask_record(entry, annotation=None):
     """
     if not isinstance(entry, dict):
         raise ValueError("record_not_object")
-    if entry.get("source_extraction", {}).get("method") == "M_R_U_aligned_token_diff":
+    extraction = entry.get("source_extraction", {})
+    if (extraction.get("method") == "M_R_U_aligned_token_diff"
+            or ("method" not in extraction and "source_domain_from_diff" in extraction)):
         if annotation is not None:
             raise ValueError("diff_data_uses_embedded_groups_not_legacy_annotations")
         return mask_diff_record(entry)
